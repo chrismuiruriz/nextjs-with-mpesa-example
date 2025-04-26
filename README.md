@@ -51,8 +51,10 @@ pnpm install
    - Edit `.env.local` and add your M-Pesa API credentials:
 
    \`\`\`
-   MPESA_CONSUMER_KEY=your_consumer_key
+   MPESA_CONSUMER_KEY=your_consumer_key\n
    MPESA_CONSUMER_SECRET=your_consumer_secret
+
+   
    MPESA_PASSKEY=your_passkey
    MPESA_SHORTCODE=your_shortcode
    MPESA_INITIATOR_NAME=your_initiator_name
