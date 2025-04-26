@@ -13,8 +13,8 @@ export default function Home() {
             <Link href="/docs" className="hover:underline">
               Documentation
             </Link>
-            <Link href="https://github.com/vercel/next.js/tree/canary/examples" className="hover:underline">
-              Examples
+            <Link href="https://github.com/chrismuiruriz/nextjs-with-mpesa-example" className="hover:underline">
+              Source Code
             </Link>
           </div>
         </nav>
