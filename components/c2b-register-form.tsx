@@ -54,7 +54,18 @@ export default function C2BRegisterForm() {
       {response ? (
         <div className="space-y-4">
           <div className="p-4 bg-green-50 border border-green-200 rounded-md">
-            <h3 className="font-medium text-green-800 mb-2">URLs Registered Successfully!</h3>
+            <div className="flex justify-between items-start">
+              <h3 className="font-medium text-green-800 mb-2">URLs Registered Successfully!</h3>
+              <button onClick={handleReset} className="text-gray-500 hover:text-gray-700" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    fillRule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
             <p className="text-sm text-green-700">Your validation and confirmation URLs have been registered.</p>
           </div>
 
