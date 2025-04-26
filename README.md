@@ -12,7 +12,7 @@ This is a production-ready example of integrating the Safaricom M-Pesa payment s
 
 ## Demo
 
-You can see a live demo of this project at [https://mpesa-nextjs.vercel.app](https://mpesa-nextjs.vercel.app)
+You can see a live demo of this project at [https://nextjs-with-mpesa.vercel.app](https://nextjs-with-mpesa.vercel.app)
 
 ## Prerequisites
 
@@ -51,15 +51,20 @@ pnpm install
    - Edit `.env.local` and add your M-Pesa API credentials:
 
    \`\`\`
-   MPESA_CONSUMER_KEY=your_consumer_key\n
+   MPESA_CONSUMER_KEY=your_consumer_key
+
    MPESA_CONSUMER_SECRET=your_consumer_secret
 
-   
    MPESA_PASSKEY=your_passkey
+
    MPESA_SHORTCODE=your_shortcode
+
    MPESA_INITIATOR_NAME=your_initiator_name
+
    MPESA_INITIATOR_PASSWORD=your_initiator_password
+
    MPESA_B2C_SHORTCODE=your_b2c_shortcode
+   
    MPESA_ENVIRONMENT=sandbox # Change to 'production' when ready
    \`\`\`
 
