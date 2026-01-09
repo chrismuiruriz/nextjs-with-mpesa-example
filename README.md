@@ -25,32 +25,32 @@ You can see a live demo of this project at [https://nextjs-with-mpesa.vercel.app
 
 1. Clone this repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/vercel/next.js.git
 cd next.js/examples/with-mpesa
-\`\`\`
+```
 
 2. Install dependencies:
 
-\`\`\`bash
+```bash
 npm install
 # or
 yarn
 # or
 pnpm install
-\`\`\`
+```
 
 3. Set up your environment variables:
 
    - Copy the `.env.example` file to `.env.local`:
    
-   \`\`\`bash
+   ```bash
    cp .env.example .env.local
-   \`\`\`
+   ```
    
    - Edit `.env.local` and add your M-Pesa API credentials:
 
-   \`\`\`
+   ```
    MPESA_CONSUMER_KEY=your_consumer_key
 
    MPESA_CONSUMER_SECRET=your_consumer_secret
@@ -66,17 +66,17 @@ pnpm install
    MPESA_B2C_SHORTCODE=your_b2c_shortcode
    
    MPESA_ENVIRONMENT=sandbox # Change to 'production' when ready
-   \`\`\`
+   ```
 
 4. Run the development server:
 
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-\`\`\`
+```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
